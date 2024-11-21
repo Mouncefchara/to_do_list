@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+  
+}
+
+#outputs{
+    display: flex;
+}
+ h1{
+    color: #fff;
+    margin: 0 20px;
+    background-color: #143c45;
+    border-radius: 10px;
+    text-align: center;
+}
+input{
+    background-color: #000;
+    text-align: center;
+    font-size: large;
+    transition: 0.5s;
+}
+.inputs{
+    height: 200px;
+}
+.inputs ,#outputs #wantToDO,#outputs #didIt{
+    background-color: #2585c5; 
+    width: 80%;
+    
+    margin: 5% 12%;
+    border-radius: 10px;
+   padding-top: 5px;
+
+}
+#outputs #wantToDO,#outputs #didIt{
+    background-color: #20c991;
+}
+.inputs input:focus{
+    background-color: #fffbfb;
+    color: #000;
+}
+.inputs input{
+    width: 90%;
+    height: 90px;
+    border: none;
+    margin:  10px 5%;
+    color: #000;
+    display:block;
+    border-radius: 10px;
+    
+}
+#inputBtn{
+    width: 90%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background:  #143c45;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin:  10px 5%;
+}
+button:hover{
+background:  #224f5a;
+letter-spacing: 1px;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+ 
+}
+
+ td .outputBtn{
+    width: 70%;
+    height: 30px;
+    margin:10px 5px;
+    border: none;
+    background:  #143c45;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+   
+}

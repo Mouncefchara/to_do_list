@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link rel="stylesheet" href="todo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="inputs">
+        <h1>New task</h1>
+        <input  id="taskText" required type="text">
+        <button id="inputBtn" onclick="createTask()">create</button>
+    </div>
+    <div id="outputs">
+        <div id="wantToDO">
+            <h1>want to do tasks</h1>
+            <table>
+                <tbody id="wantTbody">
+                    
+                    
+                </tbody>
+            </table>
+            
+        </div>
+        <div id="didIt">
+            <h1>did it tasks</h1>
+            <table>
+                <tbody id="didTbody">
+                   
+                   
+                    
+                    
+                </tbody>
+        </table>
+       
+        </div>
+        
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
